@@ -1,12 +1,16 @@
 .container {
+    font-family: 'Roboto', sans-serif;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
 }
 
 body {
     /* display: flex; */
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, #30dfe2, #2add63);
+    background-color: #151b29;
 }
 
 .grid {
@@ -46,3 +50,25 @@ body {
     margin-top: 80px;
 }
 
+h3 {
+    color: white;
+    /* transform: translate(250px, 210px); */
+}
+
+#start-button {
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 7px 5px;
+    font-size: 1em;
+    transition: all 0.25s;
+    /* transform: translate(250px, 210px); */
+}
+
+button:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
